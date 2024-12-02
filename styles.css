@@ -44,7 +44,7 @@ header nav a:hover {
 
 /* Hero Section */
 .hero {
-    background-image: url('https://via.placeholder.com/1200x600');
+    background-image: url('petBackground.webp'/1200x600');
     background-size: cover;
     background-position: center;
     text-align: center;
@@ -120,15 +120,6 @@ header nav a:hover {
     text-align: center;
     padding: 60px 20px;
     background-color: #f8f9fa; /* Light background */
-}
-
-.hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("petBackground.webp");
-  height: 50%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
 }
 
 /* Footer */
