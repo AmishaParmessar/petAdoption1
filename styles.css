@@ -44,7 +44,7 @@ header nav a:hover {
 
 /* Hero Section */
 .hero {
-    background-image: url('petBackground.webp'/1200x600');
+    background-image: url('petBackground.webp/1200x600');
     background-size: cover;
     background-position: center;
     text-align: center;
