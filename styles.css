@@ -115,6 +115,13 @@ header nav a:hover {
     margin: 10px 0;
 }
 
+/* volunteer Section */
+.volunteer {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #f8f9fa; /* Light background */
+}
+
 /* Footer */
 footer {
     text-align: center;
