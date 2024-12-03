@@ -56,14 +56,11 @@ header nav a:hover {
 
 /* Hero Section */
 .hero {
-    background-image: url('dog_hold.jpg');
     background-size: cover;
     background-position: center;
     text-align: center;
     color: #fff;
     padding: 100px 20px;
-    height: 1200;
-    width: 600;
 }
 
 .hero-text {
