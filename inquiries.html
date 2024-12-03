@@ -26,5 +26,47 @@
             </form>
         </div>
     </div>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Response</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="chatbox">
+        <div id="chat-window">
+            <div class="message bot-message">
+                <p>Here's the information you requested:</p>
+                <p>
+                    <!-- Display response based on selection -->
+                    <?php
+                        if(isset($_GET['question'])){
+                            $question = $_GET['question'];
+                            if($question == 'adopt') {
+                                echo "You can adopt a pet from your local shelter. Visit their website for more details!";
+                            } elseif($question == 'dog-care') {
+                                echo "For dogs, consider high-quality food like Royal Canin or Hill's Science Diet.";
+                            } elseif($question == 'cat-care') {
+                                echo "Cats need regular meals, a clean litter box, and a comfortable place to rest.";
+                            } elseif($question == 'dog-breeds') {
+                                echo "Breeds like French Bulldogs, Dachshunds, and Cavalier King Charles Spaniels are great for apartments.";
+                            } else {
+                                echo "Sorry, I don't have that information.";
+                            }
+                        }
+                    ?>
+                </p>
+            </div>
+        </div>
+        <a href="index.html" class="back-btn">Go back to chat</a>
+    </div>
+</body>
+</html>
+
+
+    
 </body>
 </html>
