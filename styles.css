@@ -220,7 +220,17 @@ header nav a:hover {
 
 .chatbox-form button {
     background: #264653;
-    color: #
+    color: #f4f4f9;
+}
+
+    /* Style for the logo */
+.logo {
+    height: 40px; /* Set a fixed height for the logo */
+    width: auto;  /* Keep the width proportional */
+    vertical-align: middle; /* Align the logo with the text */
+    margin-right: 15px; /* Add spacing between the logo and links */
+}
+
 
 /* Footer */
 footer {
