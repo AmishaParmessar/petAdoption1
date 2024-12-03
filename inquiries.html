@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Inquiries Chatbot</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="chatbox">
+        <div id="chat-window">
+            <div class="message bot-message">
+                <p>Hi! How can I help you with your pet inquiries today?</p>
+            </div>
+            <form action="response.html" method="GET">
+                <div class="message user-message">
+                    <p>Select a question:</p>
+                    <select name="question">
+                        <option value="adopt">How do I adopt a pet?</option>
+                        <option value="dog-care">What is the best food for my dog?</option>
+                        <option value="cat-care">How can I take care of my cat?</option>
+                        <option value="dog-breeds">What dog breeds are good for apartments?</option>
+                    </select>
+                    <button type="submit">Ask</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
